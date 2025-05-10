@@ -6,7 +6,6 @@ from config.base_test import BaseTest
 @allure.epic("Administration")
 @allure.feature("Users")
 class TestUsers(BaseTest):
-
     @allure.title("Create new user")
     @pytest.mark.regression
     def test_create_user(self):
